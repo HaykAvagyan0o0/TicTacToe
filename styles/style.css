@@ -19,7 +19,7 @@ table {
     margin-top: 50px;
 }
 
-td {
+.cell {
     font-size: 6em;
     width: 200px;
     height: 200px;
@@ -27,9 +27,7 @@ td {
     cursor: pointer;
 }
 
-#first,
-#second,
-#third {
+#first, #second, #third {
     border-bottom: 6px solid #3030aa;
 }
 
@@ -38,9 +36,7 @@ td {
     border-left: 6px solid #3030aa;
 }
 
-#fourth,
-#fifth,
-#sixth {
+#fourth, #fifth, #sixth {
     border-bottom: 6px solid #3030aa;
 }
 
