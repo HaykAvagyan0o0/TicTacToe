@@ -20,5 +20,5 @@ const cells = document.querySelectorAll(".cell");
 startGame();
 
 function startGame() {
-    
+
 }
