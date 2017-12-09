@@ -38,4 +38,10 @@ function turnClick(index, cellId) {
 function turn(index, cellId, player) {
     origBoard[index] = player;
     document.getElementById(cellId).innerHTML = player;
+    let gameWon = checkWin(origBoard, player);
+    if (gameWon) gameOver(gameWon);
+}
+
+function checkWin(board, player) {
+
 }
